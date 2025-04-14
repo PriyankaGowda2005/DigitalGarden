@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Garden | Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="fevicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <header>
+        <div class="logo">
+            <span class="logo-text">digital garden</span>
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="reveal-text">Welcome to my <span class="highlight">Digital Garden</span></h1>
+            <p class="reveal-text delay-1">A curated space where ideas bloom and creativity flourishes</p>
+            <div class="cta-container reveal-text delay-2">
+                <a href="#projects" class="cta-button">Explore Projects</a>
+                <a href="#about" class="cta-button outline">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="float-element e1"></div>
+            <div class="float-element e2"></div>
+            <div class="float-element e3"></div>
+            <div class="float-element e4"></div>
+            <div class="float-element e5"></div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-arrow-down"></i>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-header">
+            <span class="section-title-bg">About</span>
+            <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <div class="img-container">
+                    <img src="mee.png" alt="Portrait photo" class="small-image">
+                    <div class="img-overlay"></div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Creative Designer & Developer</h3>
+                <p>I'm a multidisciplinary designer and developer with a passion for creating beautiful, functional digital experiences. My work is centered around the intersection of art, technology, and human connection.</p>
+                <p>In my digital garden, I cultivate ideas and nurture projects that reflect my curiosity and dedication to thoughtful design. I believe in creating work that is not only visually striking but also meaningful and accessible.</p>
+                <div class="skills">
+                    <div class="skill">
+                        <span class="skill-name">UI/UX Design</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Web Development</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Animation</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Creative Coding</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <span class="section-title-bg">Work</span>
+            <h2 class="section-title">Featured Projects</h2>
+        </div>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+            <button class="filter-btn" data-filter="development">Development</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+        </div>
+        <div class="projects-grid">
+            <div class="project-item design branding">
+                <div class="project-img">
+                    <img src="botonical.png" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>Botanical Brand Identity</h3>
+                    <p>A nature-inspired brand identity for an eco-conscious cosmetics company.</p>
+                    <div class="project-tags">
+                        <span>Branding</span>
+                        <span>Visual Design</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-item development">
+                <div class="project-img">
+                    <img src="interactive.png" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Interactive Portfolio</h3>
+                    <p>A WebGL-powered portfolio site with immersive 3D elements and animations.</p>
+                    <div class="project-tags">
+                        <span>Web Development</span>
+                        <span>Animation</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-item design">
+                <div class="project-img">
+                    <img src="mobile.png" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3>Mobile App UX Design</h3>
+                    <p>A mindfulness application focused on user experience and accessibility.</p>
+                    <div class="project-tags">
+                        <span>UX/UI</span>
+                        <span>Mobile Design</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-item development branding">
+                <div class="project-img">
+                    <img src="ecommerse.png" alt="Project 4">
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce Platform</h3>
+                    <p>A fully responsive online shop with custom animations and smooth checkout flow.</p>
+                    <div class="project-tags">
+                        <span>Development</span>
+                        <span>E-commerce</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-item design">
+                <div class="project-img">
+                    <img src="digital.png" alt="Project 5">
+                </div>
+                <div class="project-info">
+                    <h3>Digital Magazine Layout</h3>
+                    <p>A creative digital publication design with innovative navigation and typography.</p>
+                    <div class="project-tags">
+                        <span>Editorial Design</span>
+                        <span>Typography</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-item development">
+                <div class="project-img">
+                    <img src="datavisual.png" alt="Project 6">
+                </div>
+                <div class="project-info">
+                    <h3>Interactive Data Visualization</h3>
+                    <p>A dynamic dashboard that transforms complex data into engaging visual stories.</p>
+                    <div class="project-tags">
+                        <span>Data Viz</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="section-header">
+            <span class="section-title-bg">Words</span>
+            <h2 class="section-title">Client Testimonials</h2>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p class="testimonial-text">Working with this designer was an absolute pleasure. Their creative vision and technical skills exceeded our expectations, resulting in a website that perfectly captures our brand essence.</p>
+                        <div class="testimonial-author">
+                            <img src="client.png" alt="Client photo">
+                            <div class="author-info">
+                                <h4>Emily Johnson</h4>
+                                <span>Marketing Director, Bloom Co.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p class="testimonial-text">Their attention to detail and ability to transform our ideas into a cohesive digital experience was impressive. The final product not only looks stunning but performs exceptionally well.</p>
+                        <div class="testimonial-author">
+                            <img src="client.png" alt="Client photo">
+                            <div class="author-info">
+                                <h4>Marcus Chen</h4>
+                                <span>Founder, Nexus Innovations</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p class="testimonial-text">We've received countless compliments on our new website. The intuitive design and seamless functionality have significantly improved our customer engagement and conversion rates.</p>
+                        <div class="testimonial-author">
+                            <img src="client.png" alt="Client photo">
+                            <div class="author-info">
+                                <h4>Sophia Williams</h4>
+                                <span>CEO, Elevate Studios</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-testimonial"><i class="fas fa-arrow-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="next-testimonial"><i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <span class="section-title-bg">Connect</span>
+            <h2 class="section-title">Get In Touch</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Create Something Amazing Together</h3>
+                <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 Design Street, Creative City</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hello@digitalgarden.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 234 567 890</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">digital garden</span>
+                <p>Cultivating digital experiences with purpose and passion.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-nav">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/priyankagowda_vk18">Instagram</a></li>
+                        <li><a href="https://twitter.com/Priyanka1633643">Twitter</a></li>
+                        <li><a href="#">Dribbble</a></li>
+                        <li><a href="https://www.linkedin.com/in/priyanka-gowda-4bb0201b4/">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Digital Garden. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
