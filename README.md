@@ -121,12 +121,6 @@ Potential improvements that could be added:
 - Contact form backend integration
 - Image gallery with lightbox
 
-## Credits
-
-- Images from [Unsplash](https://unsplash.com)
-- Icons from [Font Awesome](https://fontawesome.com)
-- Fonts from [Google Fonts](https://fonts.google.com)
-- Profile pictures from [Random User API](https://randomuser.me)
 
 ## License
 
@@ -134,14 +128,5 @@ This project is available for personal and commercial use with attribution.
 
 ---
 
-## Contact
 
-For questions, customizations, or feedback, please reach out:
-
-- Email: your.email@example.com
-- Website: [your-website.com](https://your-website.com)
-- LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-
----
-
-Made with ❤️ by [Your Name]
+Made with ❤️ by Priyanka
