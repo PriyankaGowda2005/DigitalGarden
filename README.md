@@ -2,16 +2,15 @@
 
 A modern, responsive, and aesthetically pleasing portfolio website template designed for creative professionals. This project demonstrates advanced frontend development techniques including animations, custom cursors, interactive elements, and responsive design.
 
-# Live Demo Here
-```
-Click here :  https://priyankapinky2004.github.io/DigitalGarden/
+## Live Demo
 
-```
+[Click here to view the live demo](https://priyankapinky2004.github.io/DigitalGarden/)
+
 ## Features
 
 - **Modern UI Design**: Clean, professional aesthetic with attention to typography and whitespace
 - **Fully Responsive**: Optimized for all device sizes with a mobile-first approach
-- **Interactive Elements**: 
+- **Interactive Elements**:
   - Custom cursor effects
   - Animated section transitions
   - Project filtering
@@ -126,12 +125,10 @@ Potential improvements that could be added:
 - Contact form backend integration
 - Image gallery with lightbox
 
-
 ## License
 
 This project is available for personal and commercial use with attribution.
 
 ---
-
 
 Made with ❤️ by Priyanka
