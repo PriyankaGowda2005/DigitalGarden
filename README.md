@@ -4,7 +4,7 @@ A modern, responsive, and aesthetically pleasing portfolio website template desi
 
 ## Live Demo
 
-[Click here to view the live demo](https://priyankapinky2004.github.io/DigitalGarden/)
+[Click here to view the live demo](https://priyankagowda2005.github.io/DigitalGarden/)
 
 ## Features
 
